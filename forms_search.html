@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>search</title>
+    </head>
+    <body>
+    <form action="https://fom.in.ua/echo">
+        <p>Поиск модели автомобиля по параметрам:</p>
+        <p>Тип кузова</p>
+        <p><input type="checkbox" name="a" value="Универсал">Универсал</p>
+        <p><input type="checkbox" name="a" value="Седан">Седан</p>
+        <p><input type="checkbox" name="a" value="Внедорожник">Внедорожник</p>
+        <p><input type="checkbox" name="a" value="Купе">Купе</p>
+        <p><input type="checkbox" name="a" value="Хэтчбек">Хэтчбек</p>
+        <p><input type="submit" value="Выбрать"></p>
+        <p>Марка автомобиля</p>
+     <p><select name="select" size="5" multiple>
+         <option selected value="s1"></option>
+         <option value="s2">Nissan</option>
+         <option value="s2">BMW</option>
+         <option value="s3">Honda</option>
+         <option value="s4">Kia</option>
+         <option value="s5">Ford</option>
+         <option value="s6">Mazda</option>
+         <option value="s7">Opel</option>
+         <option value="s8">Toyota</option>
+     </select>
+     <input type="submit" value="Выбрать"></p>
+     <p>Страна производитель: <select name="select">
+         <option selected value="s1">Германия</option>
+         <option value="s2">Канада</option>
+         <option value="s3">Франция</option>
+         <option value="s4">Англия</option>
+         <option value="s5">Украина</option>
+         <option value="s6">Венгрия</option>
+         <option value="s7">Япония</option>
+         <option value="s8">Испания</option>
+        </select>
+    <input type="submit" value="Выбрать"></p>
+    <p>Цена (от и до): <input type="number" min="0" value="Выбрать От"><input type="number" min="0" value="Выбрать До">
+    <input type="submit" value="Выбрать"></p>  
+    <p>Год выпуска: <input type="range" min="1998" max="2018" step="1" value="2005">
+    <input type="submit" value="Выбрать"></p></p>
+    <p>Состояние:</p>
+        <p><input type="checkbox" name="a" value="В кредите">В кредите</p>
+        <p><input type="checkbox" name="a" value="Битая">Битая</p>
+        <p><input type="checkbox" name="a" value="Не растоможенная">Не растоможенная</p>
+        <p><input type="checkbox" name="a" value="Растоможенная">Растоможенная</p>
+        <p><input type="checkbox" name="a" value="Новая">Новая</p>
+        <p><input type="submit" value="Выбрать"></p>
+    <p><b>Топливо:</b></p>
+     <p><input name="fuel" type="radio" vaiue="petrol">Бензин</p>
+     <p><input name="fuel" type="radio" vaiue="diesel">Дизель</p>
+     <p><input type="submit" value="Выбрать"></p>
+     <p><b>Тип коробки передач:</b></p>
+     <p><input name="box" type="radio" vaiue="petrol">Автомат</p>
+     <p><input name="box" type="radio" vaiue="diesel">Механика</p>
+     <p><input type="submit" value="Выбрать"></p>
+    <p>Выбор цвета автомобиля: <input type="color" name="bg">
+    <input type="submit" value="Выбрать"></p>
+    <p>Комфорт:</p>
+        <p><input type="checkbox" name="a" value="Кожанный салон">Кожанный салон</p>
+        <p><input type="checkbox" name="a" value="Кондиционер">Кондиционер</p>
+        <p><input type="checkbox" name="a" value="Люк">Люк</p>
+        <p><input type="checkbox" name="a" value="Датчик дождя">Датчик дождя</p>
+        <p><input type="checkbox" name="a" value="Датчик света">Датчик света</p>
+        <p><input type="submit" value="Выбрать"></p>
+    </form>
+</body>
+</html>
